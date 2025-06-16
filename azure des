@@ -1,0 +1,49 @@
+- Problem Statement-
+
+Visually impaired individuals often face challenges accessing printed or handwritten content. This project leverages AI to extract and audibly present text, enhancing accessibility.
+
+- Objective-
+
+To develop a Smart Document Reader that uses Azure AI Vision and Python OCR libraries to read printed and handwritten documents aloud, making them accessible for visually impaired users.
+
+- Features-
+
+Extracts text using Azure AI Vision Read API
+
+Performs local OCR using OpenCV and Tesseract
+
+Outputs audio using Azure Speech Service
+
+Supports both printed and handwritten documents
+
+Easily expandable to multilingual and voice-command functionality
+
+-Tech Stack-
+
+Python
+
+Azure AI Vision
+
+Azure Speech
+
+OpenCV
+
+Pytesseract
+
+-Learning Outcomes-
+
+Hands-on experience with Azure Vision API and Azure Speech Services
+
+Improved OCR accuracy using image pre-processing techniques
+
+Developed a real-world accessibility tool with practical societal impact
+
+- Future Enhancements -
+
+Text-to-Speech output integration
+
+Real-time camera capture
+
+Voice command input
+
+Multilingual and offline support
