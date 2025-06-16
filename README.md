@@ -1,13 +1,13 @@
 # AI Project: Smart Document Reader
-# Problem Statement: Difficulty in reading printed or handwritten text for visually impaired individuals.
 
-# Required Libraries
+
+
 import cv2
 import pytesseract
 from azure.ai.vision import VisionServiceClient
 from azure.identity import DefaultAzureCredential
 
-# Azure AI Configuration
+
 endpoint = "YOUR_AZURE_ENDPOINT"
 credential = DefaultAzureCredential()
 vision_client = VisionServiceClient(endpoint, credential)
@@ -25,7 +25,7 @@ def read_text(image_path):
     text = pytesseract.image_to_string(gray)
     return text
 
-# Sample Execution
+
 image_path = "sample_document.jpg"
 azure_text = extract_text(image_path)
 local_ocr_text = read_text(image_path)
